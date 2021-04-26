@@ -1,0 +1,10 @@
+.method static void main()
+{
+    .entrypoint
+    .maxstack 1
+
+    ldstr "slt cv"
+    call void [mscorlib]System.Console::WriteLine(string)
+
+    ret
+}
